@@ -25,4 +25,6 @@ Nesta fase serão feitas as seguintes atividades:
 
 ## 2. Equipamento
 
- ![](
+ ![](Captura de tela 2026-03-13 141620.png)
+
+ 
