@@ -80,5 +80,15 @@ void loop() {
 
 ## 4. Primeiro teste
 
+Teste no Computador Arduino IDE
 
- ![]( ![]()
+- IP Arduino
+- Máscara
+- Gateway
+
+ ![](IMG_20260313_143654986.jpg)
+
+
+ teste Arduino
+
+ 
