@@ -107,4 +107,4 @@ IP Arduino: 192.168.0.102
 
  Ping do Arduino no Prompt de Comando
 
-  ![]()
+  ![](IMG_20260313_145053044.jpg)
