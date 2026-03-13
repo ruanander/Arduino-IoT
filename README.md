@@ -39,7 +39,7 @@ Arduino UNO R3 – placa principal do projeto (microcontrolador ATmega328P)
 
 ---
 
-## 3. Programação Inicial
+## 3. Programação Inicial (codigos iniciais)
 
 ```
 
