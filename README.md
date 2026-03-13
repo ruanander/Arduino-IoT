@@ -95,3 +95,10 @@ Teste no Computador Arduino IDE
 
  ---
  
+## 5. Reserva de IP no Roteador
+
+Nesta parte, no painel de configuração do **roteador**, foi criada uma **reserva de IP no DHCP**, garantindo que o **Arduino sempre receba o mesmo endereço IP** na rede.
+
+Em seguida, no **Prompt de Comando (CMD) do Windows**, foi utilizado o comando:
+
+ ![]()
