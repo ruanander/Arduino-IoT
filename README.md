@@ -25,3 +25,4 @@ Nesta fase serão feitas as seguintes atividades:
 
 ## 2. Equipamento
 
+ ![](
