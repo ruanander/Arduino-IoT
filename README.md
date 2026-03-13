@@ -89,6 +89,9 @@ Teste no Computador Arduino IDE
  ![](IMG_20260313_143654986.jpg)
 
 
- teste Arduino
+ teste na Visão do Arduino
 
- ![](
+ ![](IMG_20260311_144539360.jpg)
+
+ ---
+ 
