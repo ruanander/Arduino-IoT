@@ -108,3 +108,18 @@ IP Arduino: 192.168.0.102
  Ping do Arduino no Prompt de Comando
 
   ![](IMG_20260313_145053044.jpg)
+
+  ---
+
+  ## 6. Conclusão Parcial
+
+Neste dia, o grupo realizou as seguintes atividades:
+
+- Preparação dos componentes do projeto  
+- Programação inicial do Arduino  
+- Teste da comunicação **Serial**  
+- Montagem da **rede local** utilizando um roteador  
+- Conexão do **Arduino à rede via cabo Ethernet**  
+- Verificação das configurações de rede (**IP, máscara, gateway e DNS**)  
+- Configuração da **reserva de IP no DHCP**  
+- Teste de conectividade usando o comando **ping**
