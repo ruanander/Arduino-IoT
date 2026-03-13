@@ -101,4 +101,10 @@ Nesta parte, no painel de configuração do **roteador**, foi criada uma **reser
 
 Em seguida, no **Prompt de Comando (CMD) do Windows**, foi utilizado o comando:
 
- ![]()
+IP Arduino: 192.168.0.102
+
+ ![](IMG_20260313_145029896.jpg)
+
+ Ping do Arduino no Prompt de Comando
+
+  ![]()
