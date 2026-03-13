@@ -25,6 +25,10 @@ Nesta fase serão feitas as seguintes atividades:
 
 ## 2. Equipamento
 
+- Ethernet Shield W5100 – módulo para conectar o Arduino à rede via cabo
+- Placas e Módulos
+Arduino UNO R3 – placa principal do projeto (microcontrolador ATmega328P)
+
  ![](IMG_20260311_144403666.jpg)
 
  
