@@ -41,6 +41,9 @@ Arduino UNO R3 – placa principal do projeto (microcontrolador ATmega328P)
 
 ## 3. Programação Inicial (codigos iniciais)
 
+- loop() – executa repetidamente
+- setup() – executa 1 vez ao iniciar
+
 ```
 
 // Gerar um endereço físico (MAC ADDRES) para esta placa
@@ -72,3 +75,8 @@ void loop() {
 }
 
 ```
+
+---
+
+## 4. Primeiro teste
+
