@@ -148,6 +148,18 @@ Código inicial:
 
 ## 7. Programando o Arduino Web Server
 
+![](IMG_20260316_151128144.jpg)
+
+
+- **Ethernet.begin(mac);** → Obtém um **endereço IP automaticamente pelo DHCP** da rede.
+
+- **server.begin();** → Inicia um **servidor web** no Arduino utilizando a **porta 80**.
+
+- **Ethernet.localIP();** → Exibe o **endereço IP atual do Arduino** na rede.
+
+  ---
+
+## 8. Inserindo o HTML no Arduino
 
 
   ---
