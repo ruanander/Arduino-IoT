@@ -111,7 +111,15 @@ IP Arduino: 192.168.0.102
 
   ---
 
-  ## 6. Conclusão Parcial
+## 6. Desenvolvimento HTML (VS CODE)
+
+- Ativação do **salvamento automático** no editor de código  
+- Instalação da extensão **Live Server**  
+- Criação do arquivo **index.html** para iniciar a página do projeto
+
+  ---
+
+  ## . Conclusão Parcial
 
 Neste dia, o grupo realizou as seguintes atividades:
 
