@@ -160,6 +160,129 @@ Código inicial:
 
   ---
 
+## 8. teste no Arduino IDE
+
+```
+/**
+ Arduino IoT
+ @author Ruan Anderson
+
+*/
+
+#include <SPI.h>
+#include <Ethernet.h>
+byte mac[6] = { 0x90, 0xA2, 0xDA, 0xA0, 0x17, 0x8A };
+EthernetServer server(80);
+
+#define led 8
+
+const char pagina[] PROGMEM = R"HTML(
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino IoT</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px;
+            width: 100px;
+            display: inline-block;
+            color: #ffffff;
+        
+
+          
+
+        }
+
+        .on {
+            background-color: #3498db;
+        }
+
+        .off{
+            background-color: #718c8d;
+        }
+    </style>
+<body>
+  <h1>Arduino IoT</h1>
+    <p>Exemplo 1: Controle
+     dispositivo</p>
+    <h2> Controle do LED</h2>
+   <a href="/?led-on" class="on">ON</a>
+   <a href="/?led-off" class="off">OFF</a>
+
+</body>
+
+</html1>
+)HTML";
+
+void setup() {
+  pinMode(led, OUTPUT);
+  Serial.begin(9600);
+  Ethernet.begin(mac);
+  server.begin();
+  Serial.println("Arduino IoT");
+  Serial.print("IP: ");
+  Serial.println(Ethernet.localIP());
+}
+
+void loop() {
+
+  //Se houver uma requisição (alguem tentando se conectar)
+  EthernetClient client = server.available();
+
+  // navegador de internet fez uma requisição (se existir um cliente)
+  if (client) {
+
+    //ler requisição e armazenar o valor na string
+    String request = "";  //variavel usada para armazenar uma string
+                         
+     //enquanto houver caracteres para recebimento
+    while (client.available()) {
+      char c = client.read();  //ler o caractere
+      request += c;            //soma e atribui montando a frase
+    }
+  }
+  // Execução dos comandos recebidos
+  //se receber o comando /?led-on
+
+  if (request.indexOf("GET /?led-on") >= 0) {
+    digitalWrite(led, HIGH);  //acender o led
+  }
+
+
+  if (request.indexOf("GET /?led-off") >= 0) {
+    digitalWrite(led, LOW);  //apagar o led
+  }
+
+
+  //entregar uma copia do documento html
+  //cabeçalho http (protocolo de transferencia de hipertexto)
+
+  client.println("HTTP/1.1 200 OK");
+  client.println("content-type: text/html");
+  client.println("Connection: close");
+  client.println();  //importante!
+
+  //documento html (memoria)
+  client.print((__FlashStringHelper*)pagina);
+
+  //encerrar a conexão
+  delay(1);  //pequeno tempo para esvaziar o buffer(cache)
+  client.stop();
+}
+
+```
+
+  ---
+
   ## . Conclusão Parcial
 
 Neste dia, o grupo realizou as seguintes atividades:
