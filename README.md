@@ -157,10 +157,6 @@ Código inicial:
 
 - **Ethernet.localIP();** → Exibe o **endereço IP atual do Arduino** na rede.
 
-  ---
-
-## 8. Inserindo o HTML no Arduino
-
 
   ---
 
