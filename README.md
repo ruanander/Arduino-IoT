@@ -117,6 +117,8 @@ IP Arduino: 192.168.0.102
 - Instalação da extensão **Live Server**  
 - Criação do arquivo **index.html** para iniciar a página do projeto
 
+![](IMG_20260313_150450600.jpg)
+
   ---
 
   ## . Conclusão Parcial
