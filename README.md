@@ -119,6 +119,37 @@ IP Arduino: 192.168.0.102
 
 ![](IMG_20260313_150450600.jpg)
 
+Código inicial:
+
+```
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Arduino WEB Server</title>
+    <style>
+     body {
+        font-family: sans-serif;
+        text-align: center
+     }   
+    </style>
+</head>
+<body>
+    <h1>Hello Arduino</h1>
+</body>
+</html>
+
+```
+
+---
+
+## 7. Programando o Arduino Web Server
+
+
+
   ---
 
   ## . Conclusão Parcial
