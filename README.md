@@ -281,6 +281,26 @@ void loop() {
 
 ```
 
+---
+
+## 16 – Controle um **LED vermelho no Arduino** (pelo celular)
+
+## Objetivo
+
+Controlar um **LED vermelho no Arduino** através de uma **página web (Arduino Web Server)**, utilizando botões **ON e OFF**.
+
+O controle deve funcionar:
+
+- No **computador**
+- No **celular via Wi-Fi** (acessando e funcionando corretamente)
+
+## Início do dia
+
+No começo da aula, foram realizadas as seguintes etapas:
+
+- Montagem novamente da **rede** (roteador, cabos, Ethernet Shield e computador)
+- Acesso ao **Arduino Web Server** (continuação do sucesso do dia anterior)
+
   ---
 
   ## . Conclusão Parcial
