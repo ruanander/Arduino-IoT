@@ -283,7 +283,7 @@ void loop() {
 
 ---
 
-## 16 – Controle um **LED vermelho no Arduino** (pelo celular)
+## 9. Controle um **LED vermelho no Arduino** (pelo celular)
 
 ## Objetivo
 
@@ -304,6 +304,21 @@ No começo da aula, foram realizadas as seguintes etapas:
 teste no Tinkercad:
 
 ![](IMG_20260318_133940601.jpg)
+
+---
+
+## 10. Alterações no HTML
+
+O código HTML foi modificado no **VS Code** para adicionar controle do LED:
+ 
+- página com **“Controle do LED”** contendo botões **ON e OFF**
+
+
+![](IMG_20260316_164453574.jpg)
+
+---
+
+## 11.
 
   ---
 
