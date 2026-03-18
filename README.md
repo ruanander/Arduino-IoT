@@ -301,6 +301,10 @@ No começo da aula, foram realizadas as seguintes etapas:
 - Montagem novamente da **rede** (roteador, cabos, Ethernet Shield e computador)
 - Acesso ao **Arduino Web Server** (continuação do sucesso do dia anterior)
 
+teste no Tinkercad:
+
+![](IMG_20260318_133940601.jpg)
+
   ---
 
   ## . Conclusão Parcial
