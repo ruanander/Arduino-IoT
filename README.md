@@ -512,7 +512,7 @@ void loop() {
 - A página foi acessada com sucesso pelo **celular via Wi-Fi**
 - O comando enviado pelo navegador acionou o **LED em tempo real**
 
-![](
+![](IMG_20260316_164827382.jpg)
 
   ---
 
