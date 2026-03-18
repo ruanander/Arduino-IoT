@@ -316,6 +316,17 @@ O código HTML foi modificado no **VS Code** para adicionar controle do LED:
 
 ![](IMG_20260316_164453574.jpg)
 
+
+## Explicação (direto ao ponto)
+
+- Ainda são **links (href)**, mas com **CSS** passam a ter aparência de botão  
+- Botões **ON e OFF** possuem **cores diferentes** para facilitar a identificação  
+
+Exemplo do formato usado (compatível com o Arduino):
+
+```
+
+
 ---
 
 ## 11.
