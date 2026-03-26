@@ -516,7 +516,7 @@ void loop() {
 
   ---
 
-  ## . Conclusão Parcial
+  ## . Conclusão
 
 Neste dia, o grupo realizou as seguintes atividades:
 
